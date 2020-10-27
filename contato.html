@@ -29,19 +29,28 @@
             <hr>
             <div class="form">
                 <label for="name">Seu Nome:</label>
-                <input type="text" name="name" width="30px" height="30px" id="nome"><br><br>
+                <input type="text" name="nome" width="30px" height="30px" id="nome">
+                
+                <br>
+                <br>
                 
                 <label for="mensagem">Mensagem:</label>
-                <input type="text" name="mensagem" id="mensagem"><br>
-                <button>Enviar</button> 
+                <input type="text" name="mensagem" id="mensagem">
+                
+                <br>
+                <br>
+
+                <button onclick="enviar()" >Enviar</button> 
             </div>
         <form>
             <p class="email">E-mail: fullstack@123.com</p>
             <p class="tel">Tel: (11)98557447</p>
 
-        <h3 class="text-lojas">Aceitamos Cartões</h3>
+        <h3 onmouseover="avisoPage()" id="cartoes" class="text-lojas">Aceitamos Cartões</h3>
         <img class="img_lojas"  src="imagem/bandeirasdecartaomundipagg.webp">
     </main>
   
+    <script src="script.js"></script>
+
 </body>
 </html>
